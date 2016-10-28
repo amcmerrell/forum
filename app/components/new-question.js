@@ -1,12 +1,15 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  saveQuestion() {
-    var params = {
-      title: DS.attr(),
-      details: DS.attr(),
-      author: DS.attr(),
-    }
-    this.sendAction('saveQuestion', params);
+
+  actions: {
+    saveQuestion() {
+      var params = {
+        title: this.get('title'),
+        details: this.get('details'),
+        author: this.get('author'),
+      }
+      this.sendAction('saveQuestion', params);
+    },
   }
 });
