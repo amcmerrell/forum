@@ -4,7 +4,6 @@ export default Ember.Component.extend({
 
   actions: {
     saveQuestion() {
-      debugger;
       var params = {
         title: this.get('title'),
         details: this.get('details'),
