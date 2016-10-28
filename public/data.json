@@ -1,0 +1,14 @@
+{ "questions": [{
+    "title": "How do I ask a question?",
+    "details": "Not sure how I can submit a question.",
+    "author": "andrew"
+  }, {
+    "title": "How do I answer a question?",
+    "details": "I don't see the answer form.",
+    "author": "brian"
+  }, {
+    "title": "When is the general election?",
+    "details": "I don't feel like looking it up.",
+    "author": "donald"
+  }]
+}
