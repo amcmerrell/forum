@@ -4,6 +4,11 @@
       {{question-detail question=model deleteQuestion="deleteQuestion"}}
       {{update-question question=model update="update"}}
       {{new-answer saveAnswer="saveAnswer" question=model}}
+
+      <h3>Answers</h3>
+      {{#each model.answers as |answer|}}
+        {{answer-tile answer=answer}}
+      {{/each}}
     </div>
   </div>
 </div>

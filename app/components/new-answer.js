@@ -10,7 +10,8 @@ export default Ember.Component.extend({
     saveAnswer() {
       var params = {
         title: this.get('title'),
-        author: this.get('author')
+        author: this.get('author'),
+        question: this.get('question')
       };
       if ((params.title === undefined) || (params.author === undefined)) {
         alert("Please fill out all fields before submitting.");
