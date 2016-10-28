@@ -6,7 +6,7 @@
     </div>
 
     <h3 class="text-center">Current Questions</h3>
-    {{#each model as |question|}}
+    {{#each model.questions as |question|}}
       {{question-tile question=question}}
     {{/each}}
   </div>
