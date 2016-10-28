@@ -16,6 +16,25 @@ body {
       background-color: #aadeee;
     }
   }
+  .detail-well {
+    .question-detail {
+      h2 {
+        margin-bottom: 0px;
+
+      }
+      h5 {
+        margin-top: 0px;
+      }
+      div {
+        display: inline;
+      }
+    }
+    .answer-well {
+      background-color: #f2f2f2;
+      box-shadow: 5px 5px 5px #888888;
+      border: 1px solid #d9d9d9;
+    }
+  }
   #main-content {
     margin-top: 60px;
   }
