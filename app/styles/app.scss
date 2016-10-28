@@ -20,13 +20,19 @@ body {
     .question-detail {
       h2 {
         margin-bottom: 0px;
-
       }
       h5 {
         margin-top: 0px;
       }
       div {
         display: inline;
+        .form-group {
+          display: block;
+          margin-bottom: 15px;
+        }
+      }
+      form {
+        margin-bottom: 15px;
       }
     }
     .answer-well {
