@@ -1,0 +1,15 @@
+<form>
+  <div class="form-group">
+    <label for="title">Enter your question:</label>
+    {{input class="form-control" value=title id="title"}}
+  </div>
+  <div class="form-group">
+    <label for="details">Add any relevant details to your question:</label>
+    {{input class="form-control" value=details id="details"}}
+  </div>
+  <div class="form-group">
+    <label for="author">Enter your question:</label>
+    {{input class="form-control" value=author id="author"}}
+  </div>
+  <button class="btn btn-success" {{action 'saveQuestion'}}>Submit Question</button>
+</form>
