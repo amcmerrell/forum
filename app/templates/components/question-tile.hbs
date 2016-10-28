@@ -1,4 +1,6 @@
-<div class="well tile-well">
-  <h4>{{question.title}}</h4>
-  <h5><em>{{question.author}}</em></h5>
-</div>
+{{#link-to 'question' question.id}}
+  <div class="well tile-well">
+    <h4>{{question.title}}</h4>
+    <h5><em>{{question.author}}</em></h5>
+  </div>
+{{/link-to}}
