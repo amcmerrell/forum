@@ -14,7 +14,8 @@ _Ember application that allows users to ask and answer questions._
 |------------------|---------------|----------------|
 | User-submitted questions are displayed on the homepage. | User submits question with title, details and author. | Page displays new question. |
 | When question content is clicked on homepage, it pulls up a question detail page. | User click on question content | Question detail page is displayed. |
-| Previously submitted questions can be edited by filling out a form. | User clicks "Edit" on the question detail page and resubmits form. | Updated question detail page is displayed.
+| Previously submitted questions can be edited by filling out a form. | User clicks "Edit" on the question detail page and resubmits form. | Updated question detail page is displayed. |
+| Previously submitted questions can be deleted. | User clicks "Delete" on the question detail page. | Index page is displayed with question removed. |
 | Users can reply to questions with answers to a specific question. | User clicks "Add answer" on question detail page and submits form. | Question detail page displays new answer under the question content. |
 
 ## Prerequisites
