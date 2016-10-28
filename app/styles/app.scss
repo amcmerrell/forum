@@ -1,4 +1,21 @@
 body {
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  hr {
+    border-top: 1px solid #666666;
+  }
+  .well {
+    background-color: #e6e6e6;
+  }
+  .tile-well {
+    background-color: #d5eef6;
+    &:hover {
+      background-color: #aadeee;
+    }
+  }
   #main-content {
     margin-top: 60px;
   }
