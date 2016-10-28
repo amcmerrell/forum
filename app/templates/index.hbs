@@ -1,7 +1,11 @@
-<h3 class="text-center">Current Questions</h3>
-
 <div class="row">
   <div class="col-md-8 col-md-offset-2">
+    <div class="well question-well">
+      <h3>Add your question here!</h3>
+      {{new-question saveQuestion="saveQuestion"}}
+    </div>
+
+    <h3 class="text-center">Current Questions</h3>
     {{#each model as |question|}}
       {{question-tile question=question}}
     {{/each}}
