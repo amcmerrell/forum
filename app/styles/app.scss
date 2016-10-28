@@ -1,4 +1,9 @@
 body {
+  background: url(../img/bg-image.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   a {
     &:hover {
       text-decoration: none;
@@ -10,8 +15,12 @@ body {
   .well {
     background-color: #e6e6e6;
   }
+  .question-well {
+    box-shadow: 5px 5px 5px #888888;
+  }
   .tile-well {
     background-color: #d5eef6;
+    box-shadow: 5px 5px 5px #888888;
     &:hover {
       background-color: #aadeee;
     }
