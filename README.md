@@ -6,7 +6,7 @@
 
 ## Description
 
-Ember application that allows users to ask and answer questions._
+_Ember application that allows users to ask and answer questions._
 
 ## Specifications
 
@@ -19,17 +19,17 @@ Ember application that allows users to ask and answer questions._
 
 ## Prerequisites
 
-You will need the following things properly installed on your computer.
+_You will need the following things properly installed on your computer._
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+* _[Git](http://git-scm.com/)_
+* _[Node.js](http://nodejs.org/) (with NPM)_
+* _[Bower](http://bower.io/)_
+* _[Ember CLI](http://ember-cli.com/)_
+* _[PhantomJS](http://phantomjs.org/)_
 
 ## Installation
 
-* `git clone https://github.com/amcmerrell/forum` this repository
+* `git clone https://github.com/amcmerrell/forum`
 * `cd forum`
 * `npm install`
 * `bower install`
@@ -37,7 +37,7 @@ You will need the following things properly installed on your computer.
 ## Running / Development
 
 * `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+* _Visit your app at [http://localhost:4200](http://localhost:4200)._
 
 ## Known Bugs
 _There are currently no known bugs for this project. If you discover any issues, you can reach me via the contact details below._
