@@ -10,5 +10,13 @@ export default Ember.Service.extend({
     } else {
       this.get('pins').pushObject(pinnedQuestion);
     }
+  },
+  isPinned(question) {
+    var currentPins = this.get('pins');
+    if (currentPins.contains(question)) {
+      return true;
+    } else {
+      return false;
+    }
   }
 });
