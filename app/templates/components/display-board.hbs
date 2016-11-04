@@ -1,7 +1,11 @@
-<div class="well">
-  {{#each questionBoard.pins as |pin|}}
-    {{#link-to 'question' pin.id}}
-      <h4>{{pin.title}}</h4>
-    {{/link-to}}
-  {{/each}}
-</div>
+{{#if questionBoard.pins}}
+  <div class="col-md-6 well" id="question-board">
+    <h3>Your Pinned Questions</h3>
+    {{#each questionBoard.pins as |pin|}}
+      {{#link-to 'question' pin.id}}
+        <h4><span class="glyphicon glyphicon-pushpin"></span> {{pin.title}}</h4>
+      {{/link-to}}
+      <hr>
+    {{/each}}
+  </div>
+{{/if}}

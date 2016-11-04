@@ -17,6 +17,17 @@ body {
   }
   .question-well {
     box-shadow: 5px 5px 5px #888888;
+    overflow: auto;
+    #question-board {
+      background-color: #d5eef6;
+      border: 1px solid lightgrey;
+      h3 {
+        margin-top: 0px;
+      }
+      hr {
+        margin-top: 2px;
+      }
+    }
   }
   .tile-well {
     background-color: #d5eef6;
