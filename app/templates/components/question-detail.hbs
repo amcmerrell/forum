@@ -1,4 +1,4 @@
-<h2>{{question.title}}</h2>
+<h2>{{question.title}} {{question-popularity question}}</h2>
 <h5><em>Question from {{question.author}}</em></h5>
 <p>{{question.details}}</p>
 <button class="btn btn-danger" {{action 'delete' question}}>Delete question</button>
