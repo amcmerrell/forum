@@ -8,9 +8,7 @@
       </div>
       <hr>
       <h3>Answers</h3>
-      {{#each model.answers as |answer|}}
-        {{answer-tile answer=answer addVote='addVote'}}
-      {{/each}}
+      {{answer-display answers=model.answers addVote='addVote'}}
     </div>
   </div>
 </div>
