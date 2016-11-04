@@ -12,7 +12,7 @@ export default Ember.Route.extend({
       });
       Ember.RSVP.all(answer_deletions).then(function() {
         return question.destroyRecord();
-      })
+      });
       this.transitionTo('index');
     },
     update(question, params) {
@@ -22,7 +22,7 @@ export default Ember.Route.extend({
         }
       });
       question.save();
-      this.transitionTo('index')
+      this.transitionTo('index');
     },
     saveAnswer(params) {
       var newAnswer = this.store.createRecord('answer', params);

@@ -12,7 +12,7 @@ export default Ember.Component.extend({
         title: this.get('title'),
         details: this.get('details'),
         author: this.get('author'),
-      }
+      };
       this.set('updateQuestionForm', false);
       this.sendAction('update', question, params);
     },

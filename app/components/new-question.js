@@ -8,7 +8,7 @@ export default Ember.Component.extend({
         title: this.get('title'),
         details: this.get('details'),
         author: this.get('author'),
-      }
+      };
       if ((params.title === undefined) || (params.details === undefined) || (params.author === undefined)) {
         alert("Please fill out all fields before submitting.");
       } else {
