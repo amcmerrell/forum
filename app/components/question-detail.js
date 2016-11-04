@@ -16,7 +16,9 @@ export default Ember.Component.extend({
     },
     pinQuestion(question) {
       this.get('questionBoard').add(question);
-      this.sendAction('transitionToIndex');
     },
+    removeQuestion(question) {
+      this.get('questionBoard').remove(question);
+    }
   }
 });
