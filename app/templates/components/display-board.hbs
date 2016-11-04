@@ -1,5 +1,5 @@
 {{#if questionBoard.pins}}
-  <div class="col-md-6 well" id="question-board">
+  <div class="col-sm-6 well" id="question-board">
     <h3>Your Pinned Questions</h3>
     {{#each questionBoard.pins as |pin|}}
       {{#link-to 'question' pin.id}}

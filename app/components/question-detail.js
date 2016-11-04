@@ -10,7 +10,6 @@ export default Ember.Component.extend({
       }
     },
     pinQuestion(question) {
-      console.log('got here');
       this.get('questionBoard').add(question);
     },
   }

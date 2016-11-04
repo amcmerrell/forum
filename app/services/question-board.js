@@ -6,7 +6,7 @@ export default Ember.Service.extend({
   add(pinnedQuestion) {
     var currentPins = this.get('pins');
     if (currentPins.contains(pinnedQuestion)) {
-      alert("This question has already been pinned to your board.")
+      alert("This question has already been pinned to your board.");
     } else {
       this.get('pins').pushObject(pinnedQuestion);
     }
