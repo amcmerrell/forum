@@ -5,7 +5,7 @@
       <p><em>{{answer.title}}</em></p>
       <div class="upvote">
         <p class="pull-right"><strong>{{answer.upvotes}} upvotes</strong></p>
-        <button title="upvote" class="btn btn-xs btn-info pull-right"><span class="glyphicon glyphicon-arrow-up"></span></button>
+        <button title="upvote" class="btn btn-xs btn-info pull-right" {{action 'addVote' answer}}><span class="glyphicon glyphicon-arrow-up"></span></button>
       </div>
     </div>
   </div>
