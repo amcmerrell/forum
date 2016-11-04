@@ -11,6 +11,7 @@ export default Ember.Component.extend({
       var params = {
         title: this.get('title'),
         author: this.get('author'),
+        upvotes: 0,
         question: this.get('question')
       };
       if ((params.title === undefined) || (params.author === undefined)) {
