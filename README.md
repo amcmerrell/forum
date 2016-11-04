@@ -17,6 +17,8 @@ _Ember application that allows users to ask and answer questions._
 | Previously submitted questions can be edited by filling out a form. | User clicks "Edit" on the question detail page and resubmits form. | Updated question detail page is displayed. |
 | Previously submitted questions can be deleted. | User clicks "Delete" on the question detail page. | Index page is displayed with question removed. |
 | Users can reply to questions with answers to a specific question. | User clicks "Add answer" on question detail page and submits form. | Question detail page displays new answer under the question content. |
+| Question page displays number of votes for an answer and sorts answers based on this value. | User clicks upvote button on an answer. | Page displays new vote count for each answer and re-sorts, if necessary. |
+| User pins question they want to save for later. | User clicks pin button on a question. | Index page displays this question in list of pinned questions. |
 
 ## Prerequisites
 
