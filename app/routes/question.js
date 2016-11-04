@@ -35,7 +35,6 @@ export default Ember.Route.extend({
     },
     addVote(answer) {
       var currentVotes = answer.get('upvotes');
-      console.log(currentVotes);
       currentVotes++;
       answer.set('upvotes', currentVotes);
       answer.save();
