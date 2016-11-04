@@ -1,6 +1,6 @@
 {{#link-to 'question' question.id}}
   <div class="well tile-well">
-    <h4>{{question.title}}</h4>
+    <h4>{{question.title}} {{questionPopularity question}}</h4> 
     <h5><em>Question by {{question.author}}</em></h5>
   </div>
 {{/link-to}}
