@@ -1,0 +1,7 @@
+<div class="well">
+  {{#each questionBoard.pins as |pin|}}
+    {{#link-to 'question' pin.id}}
+      <h4>{{pin.title}}</h4>
+    {{/link-to}}
+  {{/each}}
+</div>
