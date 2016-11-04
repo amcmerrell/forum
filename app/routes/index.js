@@ -14,5 +14,8 @@ export default Ember.Route.extend({
       newQuestion.save();
       this.transitionTo('index');
     },
+    reloadPage(question) {
+      this.transitionTo('index');
+    }
   }
 });

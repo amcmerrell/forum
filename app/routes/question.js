@@ -39,5 +39,8 @@ export default Ember.Route.extend({
       answer.set('upvotes', currentVotes);
       answer.save();
     },
+    reloadPage(question) {
+      this.transitionTo('index');
+    }
   }
 });

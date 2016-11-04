@@ -2,7 +2,7 @@
   <div class="col-md-8 col-md-offset-2">
     <div class="well detail-well">
       <div class="question-detail">
-        {{question-detail question=model deleteQuestion="deleteQuestion" transitionToIndex="transitionToIndex"}}
+        {{question-detail question=model deleteQuestion="deleteQuestion" transitionToIndex="transitionToIndex" reloadPage="reloadPage"}}
         {{update-question question=model update="update"}}
         {{new-answer saveAnswer="saveAnswer" question=model}}
       </div>

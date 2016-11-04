@@ -8,7 +8,12 @@
         {{/link-to}}
       </div>
       <div class="col-xs-1">
-        <button title="Pin this question" class="btn btn-sm pull-right btn-warning" {{action 'pinQuestion' question}}><span class="glyphicon glyphicon-pushpin"></span></button>
+        <!-- <button title="Pin this question" class="btn btn-sm pull-right btn-warning" {{action 'pinQuestion' question}}><span class="glyphicon glyphicon-pushpin"></span></button> -->
+        {{#if displayPinButton}}
+          <button class='btn btn-sm btn-warning pull-right' {{action 'removeQuestion' question}}><span class='glyphicon glyphicon-pushpin'></span> Pinned</button>
+        {{else}}
+          <button title='Pin this question' class='btn btn-sm pull-right btn-warning' {{action 'pinQuestion' question}}><span class='glyphicon glyphicon-pushpin'></span></button>
+        {{/if}}
       </div>
     </div>
   </div>

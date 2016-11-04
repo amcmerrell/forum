@@ -16,9 +16,11 @@ export default Ember.Component.extend({
     },
     pinQuestion(question) {
       this.get('questionBoard').add(question);
+      this.sendAction('reloadPage');
     },
     removeQuestion(question) {
       this.get('questionBoard').remove(question);
+      this.sendAction('reloadPage');
     }
   }
 });

@@ -1,11 +1,9 @@
 <h2>{{question.title}} {{question-popularity question}}</h2>
 {{#if displayPinButton}}
-  <button class="btn btn-sm btn-warning pull-right" {{action 'removeQuestion' question}}><span class="glyphicon glyphicon-pushpin"></span> Pinned</button>
+  <button class='btn btn-sm btn-warning pull-right' {{action 'removeQuestion' question}}><span class='glyphicon glyphicon-pushpin'></span> Pinned</button>
 {{else}}
-  <button title="Pin this question" class="btn btn-sm pull-right btn-warning" {{action 'pinQuestion' question}}><span class="glyphicon glyphicon-pushpin"></span></button>
+  <button title='Pin this question' class='btn btn-sm pull-right btn-warning' {{action 'pinQuestion' question}}><span class='glyphicon glyphicon-pushpin'></span></button>
 {{/if}}
 <h5><em>Question from {{question.author}}</em></h5>
 <p>{{question.details}}</p>
 <button class="btn btn-danger" {{action 'delete' question}}>Delete question</button>
-
-{{log }}
